@@ -1,0 +1,26 @@
+{
+  "title": "Laravel SQL Injection Raw Query Check",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "15min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1",
+    "sans-top25-risky",
+    "sqli"
+  ],
+  "defaultSeverity": "Major",
+  "sqKey": "LaravelRawQueryCheck",
+  "scope": "Main",
+  "securityStandards": {
+    "CWE": [
+      89
+    ],
+    "OWASP": [
+      "A1"
+    ]
+  }
+}
