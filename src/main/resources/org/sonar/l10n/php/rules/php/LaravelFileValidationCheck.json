@@ -1,0 +1,18 @@
+{
+  "title": "Laravel Request File Validation",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "30min"
+  },
+  "tags": [
+    "cwe",
+    "owasp-a1",
+    "sans-top25-risky",
+    "sqli"
+  ],
+  "defaultSeverity": "Major",
+  "sqKey": "LaravelFileValidationCheck",
+  "scope": "Main"
+}
