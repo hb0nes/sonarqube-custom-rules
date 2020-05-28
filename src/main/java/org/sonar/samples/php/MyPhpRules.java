@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.sonar.api.server.rule.RulesDefinition;
 import org.sonar.plugins.php.api.visitors.PHPCustomRuleRepository;
+import org.sonar.samples.php.checks.LaravelAppDebugCheck;
 import org.sonar.samples.php.checks.LaravelFileValidationCheck;
 import org.sonar.samples.php.checks.LaravelRawQueryCheck;
 import org.sonarsource.analyzer.commons.RuleMetadataLoader;
@@ -20,7 +21,7 @@ public class MyPhpRules implements RulesDefinition, PHPCustomRuleRepository {
 
     @Override
     public List<Class> checkClasses() {
-        return List.of(LaravelRawQueryCheck.class, LaravelFileValidationCheck.class);
+        return List.of(LaravelRawQueryCheck.class, LaravelFileValidationCheck.class, LaravelAppDebugCheck.class);
     }
 
     @Override

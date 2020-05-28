@@ -1,0 +1,15 @@
+{
+  "title": "Laravel Request File Validation",
+  "type": "VULNERABILITY",
+  "status": "ready",
+  "remediation": {
+    "func": "Constant\/Issue",
+    "constantCost": "1min"
+  },
+  "tags": [
+    "php-ini"
+  ],
+  "defaultSeverity": "Major",
+  "sqKey": "LaravelFileValidationCheck",
+  "scope": "Main"
+}
